@@ -1,0 +1,11 @@
+package sigleton;
+
+import java.util.Iterator;
+
+public class App {
+	public static void main(String[] args) {
+		President p1 = President.getInstance(); // 이재명
+		// President p2 = President.getInstance(); 이재명 (윤석열x)
+		
+	}
+}
